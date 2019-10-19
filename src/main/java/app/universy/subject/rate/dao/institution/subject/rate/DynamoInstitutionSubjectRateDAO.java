@@ -1,9 +1,9 @@
-package com.universy.subject.rate.dao.institution.subject.rate;
+package app.universy.subject.rate.dao.institution.subject.rate;
 
+import app.universy.subject.rate.model.institution.CareerKey;
+import app.universy.subject.rate.model.institution.InstitutionSubjectRate;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.universy.common.dynamo.DynamoDBMapperFactory;
-import com.universy.subject.rate.model.institution.CareerKey;
-import com.universy.subject.rate.model.institution.InstitutionSubjectRate;
 
 import java.util.Optional;
 

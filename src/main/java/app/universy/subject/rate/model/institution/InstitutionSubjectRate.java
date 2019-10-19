@@ -1,4 +1,4 @@
-package com.universy.subject.rate.model.institution;
+package app.universy.subject.rate.model.institution;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBDelimited;

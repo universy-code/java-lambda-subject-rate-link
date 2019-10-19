@@ -1,8 +1,8 @@
-package com.universy.subject.rate.model.student;
+package app.universy.subject.rate.model.student;
 
+import app.universy.subject.rate.converters.StudentCareerKeyDeserializer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.universy.subject.rate.converters.StudentCareerKeyDeserializer;
 
 public class StudentSubjectRate {
 

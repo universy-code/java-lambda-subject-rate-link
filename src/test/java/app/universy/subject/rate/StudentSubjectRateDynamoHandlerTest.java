@@ -1,6 +1,6 @@
-package com.universy.subject.rate;
+package app.universy.subject.rate;
 
-import com.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
+import app.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;

@@ -1,11 +1,11 @@
-package com.universy.subject.rate.consumer;
+package app.universy.subject.rate.consumer;
 
 import app.universy.lambda.handlers.dynamo.consumers.InsertConsumer;
-import com.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
-import com.universy.subject.rate.model.institution.CareerKey;
-import com.universy.subject.rate.model.institution.InstitutionSubjectRate;
-import com.universy.subject.rate.model.student.StudentCareerKey;
-import com.universy.subject.rate.model.student.StudentSubjectRate;
+import app.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
+import app.universy.subject.rate.model.institution.CareerKey;
+import app.universy.subject.rate.model.institution.InstitutionSubjectRate;
+import app.universy.subject.rate.model.student.StudentCareerKey;
+import app.universy.subject.rate.model.student.StudentSubjectRate;
 
 public class StudentSubjectRateInsertConsumer extends InsertConsumer<StudentSubjectRate> {
 

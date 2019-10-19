@@ -1,12 +1,12 @@
-package com.universy.subject.rate;
+package app.universy.subject.rate;
 
 import app.universy.lambda.handlers.dynamo.DynamoDBStreamHandler;
+import app.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
 import com.amazonaws.services.dynamodbv2.model.StreamRecord;
-import com.universy.subject.rate.consumer.StudentSubjectRateInsertConsumer;
-import com.universy.subject.rate.consumer.StudentSubjectRateModifyConsumer;
-import com.universy.subject.rate.dao.institution.subject.rate.DynamoInstitutionSubjectRateDAO;
-import com.universy.subject.rate.dao.institution.subject.rate.InstitutionSubjectRateDAO;
-import com.universy.subject.rate.model.student.StudentSubjectRate;
+import app.universy.subject.rate.consumer.StudentSubjectRateInsertConsumer;
+import app.universy.subject.rate.consumer.StudentSubjectRateModifyConsumer;
+import app.universy.subject.rate.dao.institution.subject.rate.DynamoInstitutionSubjectRateDAO;
+import app.universy.subject.rate.model.student.StudentSubjectRate;
 
 import java.util.function.Consumer;
 
