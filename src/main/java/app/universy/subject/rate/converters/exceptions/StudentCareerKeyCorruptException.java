@@ -1,4 +1,4 @@
-package app.universy.course.rate.converters.exceptions;
+package app.universy.subject.rate.converters.exceptions;
 
 import app.universy.lambda.handlers.dynamo.exceptions.DynamoStreamConsumerException;
 

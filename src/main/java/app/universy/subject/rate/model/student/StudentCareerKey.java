@@ -1,6 +1,6 @@
-package app.universy.course.rate.model.student;
+package app.universy.subject.rate.model.student;
 
-import app.universy.course.rate.model.institution.CareerKey;
+import app.universy.subject.rate.model.institution.CareerKey;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class StudentCareerKey {
