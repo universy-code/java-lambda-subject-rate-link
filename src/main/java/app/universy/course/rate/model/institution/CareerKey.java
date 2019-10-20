@@ -1,4 +1,4 @@
-package app.universy.subject.rate.model.institution;
+package app.universy.course.rate.model.institution;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

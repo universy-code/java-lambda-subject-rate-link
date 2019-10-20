@@ -1,12 +1,12 @@
-package app.universy.subject.rate.converters;
+package app.universy.course.rate.converters;
 
 
+import app.universy.course.rate.converters.exceptions.StudentCareerKeyCorruptException;
+import app.universy.course.rate.model.student.StudentCareerKey;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import app.universy.subject.rate.converters.exceptions.StudentCareerKeyCorruptException;
-import app.universy.subject.rate.model.student.StudentCareerKey;
 
 import java.io.IOException;
 

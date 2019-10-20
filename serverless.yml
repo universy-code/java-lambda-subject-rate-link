@@ -1,4 +1,4 @@
-service: java-lambda-subject-rate-link
+service: java-lambda-course-rate-link
 
 provider:
   name: aws
@@ -26,9 +26,9 @@ package:
 functions:
   subjectRateLink:
     name: ${self:provider.stage}-${self:service}
-    handler: app.universy.subject.rate.StudentSubjectRateDynamoHandler
+    handler: app.universy.course.rate.StudentCourseRateDynamoHandler
     events:
       - stream:
           type: dynamodb
           arn:
-            Fn::ImportValue: "student-subject-rate:${self:provider.stage}:TableStreamArn"
+            Fn::ImportValue: "student-course-rate:${self:provider.stage}:TableStreamArn"
